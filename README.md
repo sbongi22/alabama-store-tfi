@@ -19,6 +19,39 @@ Sistema de gestión para Alabama Store, un local de indumentaria que hoy adminis
 
 - Maria Candela Grosso
 
+## Alcance del proyecto
+
+### MVP (funcionalidades mínimas y prioritarias)
+
+**Gestión de Stock**
+- Alta de productos
+- Registro de variantes por talle y color
+- Consulta de stock disponible
+- Actualización manual de cantidades
+
+**Gestión de Ventas**
+- Carrito de productos
+- Registro de venta
+- Descuento automático de stock al confirmar la venta
+
+**Roles y autenticación**
+- Login diferenciado entre dueña y empleada
+- Visibilidad restringida de costos y ganancias para el rol empleada
+
+### Funcionalidades secundarias (no forman parte del MVP)
+
+- **Señas:** apartar un producto, reforzar seña, retirar con saldo pendiente
+- **Cambios:** registrar devolución o cambio de un producto ya vendido
+- **Caja:** apertura y cierre de caja, arqueo diario, registro de movimientos por tipo de pago
+- **Reposición:** aviso cuando se vende un producto exhibido y hay stock en otra ubicación del local
+- **Reportes:** ranking de productos, ganancias por período
+
+### Fuera de alcance
+
+- Venta online al público / e-commerce con pago online
+- Facturación electrónica / integración con AFIP
+- Gestión multi-sucursal (el negocio opera actualmente en un solo local)
+
 ## Tecnologías
 
 | Capa | Tecnología |
@@ -26,7 +59,7 @@ Sistema de gestión para Alabama Store, un local de indumentaria que hoy adminis
 | Frontend | TypeScript + Vite |
 | Backend | Spring Boot + JPA |
 | Base de datos | PostgreSQL |
-| Deploy | Vercel (frontend) · Render (backend) · Supabase/Railway (DB) |
+| Deploy | Vercel (frontend) · Render (backend) · Supabase (base de datos) |
 
 ## Estructura del repositorio
 
@@ -41,7 +74,7 @@ Sistema de gestión para Alabama Store, un local de indumentaria que hoy adminis
 ### Requisitos previos
 - Node.js 18+
 - Java 17+
-- PostgreSQL (o usar H2 en modo desarrollo)
+- PostgreSQL
 
 ## Estado del proyecto
 
