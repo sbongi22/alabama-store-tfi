@@ -38,6 +38,11 @@ Sistema de gestión para Alabama Store, un local de indumentaria que hoy adminis
 - Login diferenciado entre dueña y empleada
 - Visibilidad restringida de costos y ganancias para el rol empleada
 
+| Rol | Puede hacer |
+|---|---|
+| **Dueña** | Alta y edición de productos y variantes, consulta y actualización de stock, registro de ventas, y visualización de costos y ganancias |
+| **Empleada** | Consulta de stock y registro de ventas, sin acceso a costos ni ganancias |
+
 ### Funcionalidades secundarias (no forman parte del MVP)
 
 - **Señas:** apartar un producto, reforzar seña, retirar con saldo pendiente
